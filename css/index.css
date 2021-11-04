@@ -1,0 +1,8 @@
+:root{
+    --orange: #FF8000;
+}
+
+#logoGames{
+    color: var(--orange);
+    font-size: 50pt;
+}
