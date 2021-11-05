@@ -4,7 +4,6 @@
     --black: #000000;
     --red: #FF0000;
 }
-
 /* LOGO NO HEADER */
 #logoGames{
     color: var(--orange);
@@ -18,8 +17,12 @@
 
 .nav-link:hover{
     color: var(--red);
+    text-decoration: underline;
 }
 
+#login{
+    color: var(--orange);
+}
 .jumbotron{
     background: url('../img/banner.jpg') no-repeat fixed;
     background-size: 100% 100%;

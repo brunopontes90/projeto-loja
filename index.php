@@ -10,38 +10,38 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/8455a3d02b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css">
-    <title>Loja Virtual</title>
+    <title>Games</title>
 </head>
 <body class="container-fluid bg-light">
-    <header class="continer-fluid" id="topo">
-            <!--LOGO-->
-            <nav class="navbar navbar-expand-sm navabr-ligth">
-                <a href="index.php">
-                    <i class="fas fa-gamepad" id="logoGames"></i>
-                    <h1 class="d-none">Site de Jogos</h1>
-                </a>
+    <header class="continer-fluid">
+    <nav class="navbar navbar-expand-sm navabr-ligth">
+        <a href="">
+            <i class="fas fa-gamepad" id="logoGames"></i>
+            <h1 class="d-none">Site de Jogos</h1>
+        </a>
+        <!--Menu COLLAPSE-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navBarButton">
+            <i class="fas fa-bars fa-lg"></i>
+        </button>
+        <div id="navBarButton" class="collapse navbar-collapse">
 
-                <!--Menu COLLAPSE-->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navBarButton">
-                    <i class="fas fa-bars fa-lg"></i>
-                </button>
-                <div id="navBarButton" class="collapse navbar-collapse">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item text-uppercase font-weight-bold">
-                            <a class="nav-link" href="#jogos" class="nav-link">Ver Jogos</a>
-                        </li>
-                        <li class="nav-item text-uppercase font-weight-bold">
-                            <a class="nav-link" href="#quemSomos" class="nav-link">Sobre</a>
-                        </li>
-                        <li class="nav-item text-uppercase font-weight-bold">
-                            <a class="nav-link" href="#fale" class="nav-link">Fale Conosco</a>
-
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
-        </header>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item text-uppercase font-weight-bold">
+                    <a class="nav-link" href="#" class="nav-link">Ver Jogos</a>
+                </li>
+                <li class="nav-item text-uppercase font-weight-bold">
+                    <a class="nav-link" href="views\sobre.php" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item text-uppercase font-weight-bold">
+                    <a class="nav-link" href="#" class="nav-link">Fale Conosco</a>
+                </li>
+            </ul>
+            <a href="views\login.php">
+                <i class="fas fa-user" id="login"></i>
+            </a>
+        </div>
+    </nav>
+    </header>
 
         <main>
             <section class="jumbotron"></section>
@@ -64,45 +64,7 @@
         </main>
 
         <footer class="mt-5">
-            <nav id="redes " class="row">
-                <div class="col-sm-12 ">
-                    <div>
-                        <ul class="nav justify-content-center ">
-
-                            <!--FACEBOOK-->
-                            <li class="nav-item mr-4">
-                                <a href="https://www.facebook.com/" target="_blank">
-                                    <i class="fab fa-facebook-f text-decoration-none"></i>
-                                </a>
-                            </li>
-
-                            <!--INSTAGRAM-->
-                            <li class="nav-item mr-4">
-                                <a href="https://www.instagram.com/" target="_blank">
-                                    <i class="fab fa-instagram text-decoration-none"></i>
-                                </a>
-                            </li>
-
-                            <!--WHATSAPP-->
-                            <li class="nav-item mr-4">
-                                <a href="https://web.whatsapp.com/" target="_blank">
-                                    <i class="fab fa-whatsapp text-decoration-none"></i>
-                                </a>
-                            </li>
-
-                            <!--MARCAR REGISTRADA-->
-                            <div class="col-sm-12">
-                                <div class="nav justify-content-center">
-                                    <li class="nav-item">
-                                        <i id="marca" class="far fa-registered"> 2021 - Loja Virtual</i>
-                                    </li>
-                                </div>
-                            </div>
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <?php include './views/layouts/footer.php'?>
         </footer>
 </body>
 </html>
