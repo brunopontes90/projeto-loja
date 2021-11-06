@@ -21,7 +21,7 @@
         <h2 class="mt-2 text-center text-uppercase font-weight-bold text-muted">Sobre Nós</h2>
         <div class="m-5">
             <p>A Loja Virtual é uma empresa de inovação, atuando no Brasil, desde 2021. Somos por trazer entretenimento de jogos nacionais e internacionais.</p>
-            <p>Foi com muita vontade de inovar que entramos de cabeça nesse mundo na inteção de trazer conteudos dizerços referente a jogos.</p>
+            <p>Foi com muita vontade de inovar que entramos de cabeça nesse mundo na inteção de trazer conteudos diverços referente a jogos.</p>
             <p>Desde 2020, desenvolvemos nosso 1º conteudo, com o objetivo de atender melhor nosso público e de aumentar nossa presença no mercado mundial do entretenimento, que não para de crescer.</p>
             <p>Podem chamar do que quiser: de digital, online, web, internet, virtual e até de nuvem! Gostamos mesmo é de estar sempre conectado com nosso público. </p>
         </div>
