@@ -14,17 +14,20 @@
 
         <ul class="navbar-nav mx-auto">
             <li class="nav-item text-uppercase font-weight-bold">
+                <a class="nav-link" href="../index.php" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item text-uppercase font-weight-bold">
                 <a class="nav-link" href="#" class="nav-link">Ver Jogos</a>
             </li>
             <li class="nav-item text-uppercase font-weight-bold">
-                <a class="nav-link" href="views\sobre.php" class="nav-link">Sobre</a>
+                <a class="nav-link" href="../views/sobre.php" class="nav-link">Sobre</a>
             </li>
             <li class="nav-item text-uppercase font-weight-bold">
-                <a class="nav-link" href="#" class="nav-link">Fale Conosco</a>
+                <a class="nav-link" href="../views/faleConosco.php" class="nav-link">Fale Conosco</a>
             </li>
         </ul>
 
-        <a href="../login.php">
+        <a href="../views/login.php">
             <i class="fas fa-user" id="login"></i>
         </a>
 

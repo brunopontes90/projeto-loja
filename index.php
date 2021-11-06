@@ -15,7 +15,7 @@
 <body class="container-fluid bg-light">
     <header class="continer-fluid">
     <nav class="navbar navbar-expand-sm navabr-ligth">
-        <a href="">
+        <a href="index.php">
             <i class="fas fa-gamepad" id="logoGames"></i>
             <h1 class="d-none">Site de Jogos</h1>
         </a>
@@ -27,13 +27,16 @@
 
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item text-uppercase font-weight-bold">
+                    <a class="nav-link" href="index.php" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item text-uppercase font-weight-bold">
                     <a class="nav-link" href="#" class="nav-link">Ver Jogos</a>
                 </li>
                 <li class="nav-item text-uppercase font-weight-bold">
                     <a class="nav-link" href="views\sobre.php" class="nav-link">Sobre</a>
                 </li>
                 <li class="nav-item text-uppercase font-weight-bold">
-                    <a class="nav-link" href="#" class="nav-link">Fale Conosco</a>
+                    <a class="nav-link" href="views\faleConosco.php" class="nav-link">Fale Conosco</a>
                 </li>
             </ul>
             <a href="views\login.php">
@@ -45,11 +48,9 @@
 
         <main>
             <section class="jumbotron"></section>
-                <section>
-                    <h1 class="h3 mt-5 text-uppercase text-muted text-center font-weight-bold">História do Videogame</h1>
-                </section>
 
-                <article class="container mt-5">
+                <article class="container shadow p-3 mt-5 mb-5 bg-white rounded">
+                    <h1 class="h3 m-4 text-uppercase text-muted text-center font-weight-bold">História do Videogame</h1>
                     <p>O Videogame ou game é uma disputa competitiva, executada no formato de um jogo eletrônico. O jogador permanece diante de um veículo que transmite as imagens do confronto lúdico, quase sempre uma TV ou o dispositivo de um computador. Normalmente estende-se este termo também para definir o suporte no qual os games são processados, conhecido como console.</p>
                     <p>Ao que parece, o físico William Higinbotham, integrante do projeto Manhattan, responsável pela produção da primeira bomba atômica, foi o criador do Videogame, em 1958, mas inconsciente da importância de sua obra-prima ele não se preocupou em patenteá-la, portanto não foi oficialmente considerado seu artífice.</p>
                     <p>No auge da Guerra Fria, ele elaborou um mecanismo que incrementasse o número de visitantes do Brookhaven National Laboratories, sediado em Nova York, pois o governo norte-americano tinha como intenção exibir seu potencial nuclear diante de seu povo. Desta forma ele produziu um jogo de tênis com apenas dois traços primitivos e uma bola, batizando-o de Tennis Programming ou Tennis for Two, exposto em uma tela de 15 polegadas e projetado para ser processado em um computador analógico.</p>
@@ -63,7 +64,7 @@
             
         </main>
 
-        <footer class="mt-5">
+        <footer>
             <?php include './views/layouts/footer.php'?>
         </footer>
 </body>

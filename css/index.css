@@ -10,6 +10,10 @@
     font-size: 50pt;
 }
 
+#logoGames:hover{
+    color: var(--red);
+}
+
 .nav-link, a{
     color: var(--black);
     font-size: 15pt;
@@ -23,6 +27,11 @@
 #login{
     color: var(--orange);
 }
+
+#login:hover{
+    color: var(--red);
+}
+
 .jumbotron{
     background: url('../img/banner.jpg') no-repeat fixed;
     background-size: 100% 100%;
@@ -30,12 +39,16 @@
     margin-bottom: 0px;
 }
 
-article{
+article, aside, form{
     font-size: 14pt;
     font-family: 'Roboto', sans-serif;
 }
 
+.btn:hover{
+    background-color: var(--black);
+    color: var(--orange);
+}
+
 footer{
-    bottom: 0;
     font-size: 18pt;
 }
