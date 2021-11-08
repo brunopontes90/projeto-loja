@@ -19,13 +19,13 @@
                                 
         <h1 class="card-title text-center text-muted h2 text-uppercase">Login</h1>
         <div class="form-label-group mb-3">
-            <label for="login">Email</label>
-            <input type="email" class="form-control" name="login" placeholder="Email" required>
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" placeholder="Email" required>
         </div>
 
         <div class="form-label-group mb-3">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" class="form-control" placeholder="Senha" required>
+            <label for="pass">Senha</label>
+            <input type="password" name="pass" class="form-control" placeholder="Senha" required>
         </div>
 
         <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" name="entrar">Entrar</button>
